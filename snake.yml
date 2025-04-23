@@ -26,4 +26,5 @@ jobs:
           branch: output
           folder: dist
           clean: true
-          repository_name: Humble689/.github-workflows-snake.yml 
+          repository_name: Humble689/.github-workflows-snake.yml
+          token: ${{ secrets.GITHUB_TOKEN }} 
